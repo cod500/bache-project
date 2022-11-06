@@ -1,41 +1,26 @@
-
 'use strict';
-var result = document.getElementById('result');
-var cropButton = document.getElementById('btn-crop');
-var cropped = document.getElementById('cropped');
-// var resizedImage = document.querySelector('.crop-image');
 
+var result = document.getElementById('result'); //Image where user selected silhouette will populate
+
+// Size of selected silhouette  around the coordinates
 var crop_img
 	, CROPWIDTH = 280
 	, CROPHEIGHT = 330
 	, resize_canvas = document.createElement('canvas');
 
-// if (resizedImage.complete) {
-// 	init();
-// } else {
-// 	resizedImage.onload = function () {
-// 		init();
-// 	};
-// }
-
-
-// cropButton.addEventListener('click', function () {
-// 	openCropCanvasImg(-115, -57);
-// });
-
-
+//Creation of canvas and new image to be cropped
 function init() {
-	var resizedImage = document.querySelector('.crop-image');
+	var resizedImage = document.querySelector('.crop-image'); //Hidden image in DOM 
 	resizedImage.dataset.isCrop = 'true';
 	resizedImage.draggable = false;
 	crop_img = new Image();
 	crop_img.crossOrigin = resizedImage.crossOrigin;
-	crop_img.src = resizedImage.src;
+	crop_img.src = resizedImage.src; //New image will be given src of image the user selects
 	crop_img.draggable = false;
-	// cropped.src = crop_img;
 
 }
 
+// Image is cropped and given width and height
 function crop(leftCoord, topCoord) {
 	resize_canvas.width = CROPWIDTH;
 	resize_canvas.height = CROPHEIGHT;
@@ -43,16 +28,16 @@ function crop(leftCoord, topCoord) {
 	var ctx = resize_canvas.getContext('2d');
 	ctx.drawImage(crop_img,
 		leftCoord, topCoord,
-		1500, 2000
+		1500, 2000 //All silhouette pages have same resolution 
 	);
-	console.log(ctx)
 }
 
+//Values of coordinates od user selected iamge is passed to crop function
 function openCropCanvasImg(x, y) {
 	crop(x, y);
 
 	try {
-		var base64Img = resize_canvas.toDataURL('image/png', 1.0);
+		var base64Img = resize_canvas.toDataURL('image/png', 1.0); //Image is created and populated in result img in DOM
 		result.src = base64Img;
 	} catch (e) {
 		alert(e);
@@ -62,6 +47,7 @@ function openCropCanvasImg(x, y) {
 
 }
 
+//
 setTimeout(function () {
 
 	//Attatches tooltip to body so it stays relevant to page and not image
@@ -86,33 +72,6 @@ setTimeout(function () {
 		})
 	});
 
-	// })
-
-	// const paths = document.querySelectorAll('.panzoom');
-	// paths.forEach((elem) => {
-	// 	const parent = elem.parentElement;
-	// 	const panzoom = Panzoom(elem, {
-	// 		minScale: 1,
-	// 		maxScale: 5,
-	// 		contain: 'outside',
-	// 		disableZoom: false,
-	// 		animate: true,
-	// 	});
-
-	// 	const resetButton = document.getElementById('reset-btn');
-	// 	// parent.addEventListener('wheel', panzoom.zoomWithWheel);
-	// 	const zoomInButton = document.getElementById('zoom-in');
-	// 	const zoomOutButton = document.getElementById('zoom-out');
-	// 	// const rangeInput = document.getElementById('zoom-range');
-	// 	zoomInButton.addEventListener('click', panzoom.zoomIn);
-	// 	zoomOutButton.addEventListener('click', panzoom.zoomOut);
-	// 	resetButton.addEventListener('click', panzoom.reset())
-	// 	// rangeInput.addEventListener('input', (event) => {
-	// 	// 	panzoom.zoom(event.target.valueAsNumber)
-	// 	// })
-	// });
-
-	// var $section = $('#canvas');
 	//Even page Zoom
 	$('.panzoom-even').panzoom({
 		$zoomIn: $("#zoom-in-even"),
@@ -147,7 +106,7 @@ setTimeout(function () {
 	}).panzoom('zoom', true);
 
 	//Keep image map resposive for firefox
-	$('img[usemap]').rwdImageMaps();
+	// $('img[usemap]').rwdImageMaps();
 
 	//Mapoid to highlight image areas
 	var obj = {
@@ -156,21 +115,17 @@ setTimeout(function () {
 		"selectOnClick": true,
 		"fadeTime": 100,
 		"hoverIn": function (j, e) {
-			//Check if image for this map is loaded
-			//Change image when using different map
-			if ($('.crop-image').attr('src') != e[0].offsetParent.firstChild.src) {
-				$(".crop-image").attr("src", e[0].offsetParent.firstChild.src);
+			if ($('.crop-image').attr('src') != e[0].offsetParent.firstChild.src) { //Check if image for this map is loaded
+				$(".crop-image").attr("src", e[0].offsetParent.firstChild.src); //Change image when using different map
 				init();
 			}
 		},
 		"click": function (j, e) {
-			//Find coordinates of area and pass to be cropped
-			console.log(e[0]);
-			let coords = e[0].coords.split(',')
-			let leftCoord = coords[0] * -3.3;
-			let topCoord = coords[1] * -3.3;
+			let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
+			let leftCoord = coords[0];
+			let topCoord = coords[1];
 			setTimeout(function () {
-				openCropCanvasImg("-678", "-1331");
+				openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
 				$('#image-info').text(e.attr('data-information'));
 			}, 700)
 		}

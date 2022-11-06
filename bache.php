@@ -72,14 +72,21 @@
   <div class="bb-custom-wrapper">
 			<div id="bb-bookblock" class="bb-bookblock">
 
-				<?php for ($i = 2; $i < 9; $i+=2): ?>
-					<?php $next = $i + 1 ?>
+      <?php 
+      $data = file_get_contents('data/bache.json',true);
+      $array = json_decode($data, true);
+      $page = 2;
+      ?>
+
+				<?php for ($i = 2; $i < count($array); $i+=2): ?>
+					<?php $next = $page + 1 ?>
 					<div class="bb-item">
 					<div class="bb-custom-side">
-					<?php include "./pages/$i.php";?>
+					<?php include_once "./pages/$page.php";?>
 					</div>
 					<div class="bb-custom-side">
-					<?php include "./pages/$next.php";?>
+					<?php include_once "./pages/$next.php";?>
+          <?php $page = $page + 2;?>
 					</div>
 				</div>
 				<?php endfor; ?>
@@ -353,7 +360,7 @@
   <script src="js/jquery.rwdImageMaps.js"></script>
 	<script src="js/book.js"></script>
 	<script>
-    var numberOfPages = 8;
+    var numberOfPages = 104;
     var pageNumber = 1;
 	
 		var Page = (function () {
