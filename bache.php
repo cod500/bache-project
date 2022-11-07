@@ -75,6 +75,7 @@
       <?php 
       $data = file_get_contents('data/bache.json',true);
       $array = json_decode($data, true);
+      // starting page
       $page = 2;
       ?>
 
