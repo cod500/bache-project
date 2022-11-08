@@ -79,7 +79,7 @@
       $page = 2;
       ?>
 
-				<?php for ($i = 2; $i < count($array); $i+=2): ?>
+				<?php for ($i = 2; $i < 33; $i+=2): ?>
 					<?php $next = $page + 1 ?>
 					<div class="bb-item">
 					<div class="bb-custom-side">
@@ -361,7 +361,7 @@
   <script src="js/jquery.rwdImageMaps.js"></script>
 	<script src="js/book.js"></script>
 	<script>
-    var numberOfPages = 104;
+    var numberOfPages = 33;
     var pageNumber = 1;
 	
 		var Page = (function () {

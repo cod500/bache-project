@@ -37,7 +37,7 @@ function openCropCanvasImg(x, y) {
 	crop(x, y);
 
 	try {
-		var base64Img = resize_canvas.toDataURL('image/png', 1.0); //Image is created and populated in result img in DOM
+		var base64Img = resize_canvas.toDataURL('image/png', 2.0); //Image is created and populated in result img in DOM
 		result.src = base64Img;
 	} catch (e) {
 		alert(e);
