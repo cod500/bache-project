@@ -106,7 +106,7 @@ setTimeout(function () {
 	}).panzoom('zoom', true);
 
 	//Keep image map resposive for firefox
-	// $('img[usemap]').rwdImageMaps();
+	$('img[usemap]').rwdImageMaps();
 
 	//Mapoid to highlight image areas
 	var obj = {

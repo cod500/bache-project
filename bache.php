@@ -79,8 +79,13 @@
       $page = 2;
       ?>
 
-				<?php for ($i = 2; $i < 33; $i+=2): ?>
+				<?php for ($i = 2; $i < 60; $i+=2): ?>
 					<?php $next = $page + 1 ?>
+          <?php 
+            if($page > 60){
+              break;
+            }
+          ?>
 					<div class="bb-item">
 					<div class="bb-custom-side">
 					<?php include_once "./pages/$page.php";?>
@@ -361,7 +366,7 @@
   <script src="js/jquery.rwdImageMaps.js"></script>
 	<script src="js/book.js"></script>
 	<script>
-    var numberOfPages = 33;
+    var numberOfPages = 60;
     var pageNumber = 1;
 	
 		var Page = (function () {

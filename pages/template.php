@@ -1,64 +1,30 @@
-<body>
-	<div class="book-content">
-		<div class="panzoom-odd page-2"><img id="odd-page" class="fixed-height"
-				src="https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p1" usemap="#page-2" />
-		</div>
-
-	</div>
-	<map name="page-2">
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1" data-img="p2-1" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 2" data-img="p2-2" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 3" data-img="p2-3" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 4" data-img="p2-4" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 5" data-img="p2-5" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1" data-img="p2-6" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-7" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-8" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-9" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-10" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-11" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-12" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-13" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-14" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-15" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-16" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-17" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-18" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-19" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-20" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-21" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-22" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-23" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-24" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-25" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-26" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-27" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-28" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-29" />
-		<area shape="rect" coords="" class="tooltipLink" data-tooltip="first row - 1"
-			data-img="p2-30" />
-	</map>
-</body>
+82,68,267,363 
+296,57,529,355
+ 558,58,753,373 
+ 823,55,1033,365 
+ 1065,59,1264,372
+  80,389,252,636 
+  293,379,517,667 
+  547,380,759,663 
+  803,369,1030,680
+   1058,378,1267,681
+    74,692,244,962
+	 280,696,499,992 
+	 545,667,765,989
+	  805,686,1019,976
+	   1039,714,1246,971
+	    76,1003,246,1245 
+		281,1004,509,1284 
+		553,1019,766,1275 
+		805,1019,1027,1305 
+		1062,1025,1263,1307
+		 71,1312,243,1573 
+		 287,1325,495,1607
+		  536,1310,759,1603 
+		  792,1321,1006,1597 
+		  1041,1316,1264,1600 
+		  75,1620,267,1918 
+		  279,1616,506,1940 
+		  529,1610,781,1945 
+		  797,1605,1022,1919
+		   1043,1603,1263,1877 
