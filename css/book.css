@@ -319,7 +319,7 @@ area {
   border-color: rgb(65, 65, 65, 0.9) rgba(0, 0, 0, 0);
   border-style: solid;
   border-width: 13px 13px 0;
-  bottom: -13px;
+  bottom: -10px;
   left: 50%;
   transform: translate(-50%, 0);
   width: 0;

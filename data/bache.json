@@ -11,123 +11,124 @@
     "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p1",
     "silhouettes": [
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.10",
         "coordinates": "136,64,372,396"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.11",
         "coordinates": "396,64,672,408"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.12",
         "coordinates": "684,60,916,404"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.13",
         "coordinates": "944,64,1144,392"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.14",
         "coordinates": "1196,68,1416,384"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.15",
         "coordinates": "156,412,368,724"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.16",
         "coordinates": "408,416,640,712"
       },
       {
-        "url": "John Doe",
+        "name": "George Jefferson",
+        "url": "edanmdm:npg_S_NPG.2002.184.16",
         "coordinates": "680,404,912,688"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.17",
         "coordinates": "936,396,1160,692"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.18",
         "coordinates": "1208,384,1420,688"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.19",
         "coordinates": "160,736,396,1032"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.40",
         "coordinates": "416,724,640,1028"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.41",
         "coordinates": "672,688,896,1016"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.42",
         "coordinates": "932,696,1172,1012"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.43",
         "coordinates": "1208,700,1428,1016"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.44",
         "coordinates": "160,1036,384,1340"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.9",
         "coordinates": "428,1036,664,1348"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.22",
         "coordinates": "688,1016,916,1340"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.24",
         "coordinates": "928,1024,1172,1328"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.25",
         "coordinates": "1204,1024,1424,1300"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.26",
         "coordinates": "172,1356,400,1656"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.27",
         "coordinates": "424,1356,652,1652"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.28",
         "coordinates": "688,1340,928,1636"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.30",
         "coordinates": "948,1332,1164,1644"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.31",
         "coordinates": "1176,1308,1412,1636"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.32",
         "coordinates": "164,1656,396,1960"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.33",
         "coordinates": "428,1648,644,1964"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.36",
         "coordinates": "676,1636,904,1944"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.37",
         "coordinates": "924,1652,1160,1940"
       },
       {
-        "url": "John Doe",
+        "url": "edanmdm:npg_S_NPG.2002.184.38",
         "coordinates": "1180,1640,1416,1944"
       }
     ]
@@ -7094,179 +7095,648 @@
     ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p60",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p60"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p60",
+    "silhouettes": [
+      {
+        "url": "John Doe",
+        "coordinates": "211,60,434,372"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "461,61,667,372"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "699,58,912,374"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "952,57,1182,349"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1198,55,1408,365"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "219,378,444,690"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "461,377,668,679"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "702,378,945,669"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "963,352,1189,666"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1204,370,1420,661"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "225,699,439,998"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "459,682,693,995"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "713,676,930,991"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "967,676,1199,978"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1214,669,1424,959"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "230,1005,448,1274"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "461,1002,702,1278"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "718,1002,950,1273"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "969,989,1210,1274"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1222,974,1420,1264"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "230,1281,448,1592"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "463,1284,708,1596"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "720,1284,954,1592"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "976,1282,1224,1571"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1244,1278,1421,1588"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "229,1598,447,1922"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "467,1605,702,1931"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "723,1607,965,1926"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "983,1595,1228,1934"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1241,1603,1426,1922"
+      }
+    ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p61",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p61"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p61",
+    "silhouettes": [
+      {
+        "url": "John Doe",
+        "coordinates": "101,92,314,375"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "358,82,558,375"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "590,85,793,380"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "832,82,1009,375"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1033,87,1247,378"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "105,380,331,666"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "357,381,563,671"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "583,384,793,677"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "827,381,1018,673"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1034,384,1246,677"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "116,675,350,967"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "363,679,561,963"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "577,679,789,964"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "808,678,1028,965"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1042,686,1242,947"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "123,971,347,1249"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "367,970,561,1274"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "573,968,784,1272"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "808,968,1006,1272"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1024,972,1245,1257"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "103,1276,330,1574"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "362,1285,586,1578"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "599,1285,800,1582"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "818,1292,1030,1595"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1047,1289,1256,1587"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "99,1586,349,1891"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "364,1590,589,1863"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "603,1587,816,1869"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "830,1604,1027,1860"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1043,1591,1278,1881"
+      }
+    ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p62",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p62"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p62",
+    "silhouettes": [
+      {
+        "url": "John Doe",
+        "coordinates": "259,62,475,379"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "502,56,716,371"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "739,51,954,380"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "985,56,1188,375"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1230,58,1413,368"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "261,387,459,675"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "497,381,712,673"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "741,387,954,674"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "983,378,1202,681"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1221,372,1425,694"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "257,686,472,970"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "505,684,695,978"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "735,688,968,978"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "996,708,1202,965"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "223,1278,451,1595"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "481,1276,681,1603"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "714,1282,937,1588"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "983,1266,1222,1585"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1238,1264,1427,1584"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "222,1600,446,1933"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "475,1607,698,1935"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "725,1601,940,1930"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "976,1596,1216,1936"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1239,1589,1428,1932"
+      }
+    ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p63",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p63"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p63",
+    "silhouettes": [
+      {
+        "url": "John Doe",
+        "coordinates": "105,104,279,415"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "378,97,594,410"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "613,93,803,420"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "830,99,1027,412"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1058,121,1255,414"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "97,423,256,713"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "349,411,578,720"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "596,425,825,735"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "835,424,1014,730"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1034,425,1258,744"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "92,721,271,1020"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "355,729,575,1017"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "604,740,816,1021"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "834,738,1027,1029"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1039,748,1252,1031"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "110,1038,295,1279"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "345,1027,582,1321"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "597,1032,802,1321"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "826,1035,1035,1319"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1042,1036,1250,1332"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "119,1310,330,1613"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "357,1327,588,1617"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "601,1327,817,1603"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "830,1325,1033,1649"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1049,1337,1257,1614"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "118,1615,336,1932"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "361,1622,583,1912"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "605,1612,814,1927"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "837,1656,1030,1896"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1050,1619,1267,1919"
+      }
+    ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p64",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p64"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p64",
+    "silhouettes": [
+      {
+        "url": "John Doe",
+        "coordinates": "224,56,440,356"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "468,60,652,360"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "716,48,948,364"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "972,36,1208,364"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1224,40,1416,372"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "228,368,436,664"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "464,360,688,672"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "704,368,952,656"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "968,372,1200,664"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1224,380,1412,676"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "228,668,440,988"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "460,684,700,996"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "720,664,960,984"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "980,672,1204,972"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1228,688,1412,952"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "220,1004,444,1312"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "464,1004,700,1300"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "720,996,960,1300"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "976,984,1212,1304"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1228,964,1436,1280"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "228,1324,452,1628"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "490,1318,706,1628"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "724,1308,968,1624"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "984,1308,1220,1608"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1228,1292,1432,1612"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "236,1636,472,1920"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "492,1633,723,1945"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "735,1628,991,1943"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1003,1616,1236,1953"
+      },
+      {
+        "url": "John Doe",
+        "coordinates": "1247,1619,1448,1933"
+      }
+    ]
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p65",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p65"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p65",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p66",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p66"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p92",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p67",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p67"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p91",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p68",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p68"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p94",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p69",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p69"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p95",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p70",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p70"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p96",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p71",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p71"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p97",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p72",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p72"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p98",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p73",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p73"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p99",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p74",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p74"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p102",
+    "silhouettes": []
   },
   {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p75",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p75"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p76",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p76"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p77",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p77"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p78",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p78"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p79",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p79"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p80",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p80"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p81",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p81"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p82",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p82"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p83",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p83"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p84",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p84"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p85",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p85"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p86",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p86"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p87",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p87"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p88",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p88"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p89",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p89"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p90",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p90"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p91",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p91"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p92",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p92"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p93",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p93"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p94",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p94"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p95",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p95"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p96",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p96"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p97",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p97"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p98",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p98"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p99",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p99"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p100",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p100"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p101",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p101"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p102",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p102"
-  },
-  {
-    "name": "page https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p103",
-    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p103"
+    "image": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_p103",
+    "silhouettes": []
   }
 ]

@@ -53,12 +53,39 @@ setTimeout(function () {
 	//Attatches tooltip to body so it stays relevant to page and not image
 	//Attatching to mouse 
 	$('.tooltipLink').hover(function () {
-		var title = $(this).attr('data-tooltip');
-		$(this).data('tipText', title);
-		if (title == '') { }
-		else {
-			$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(title).appendTo('body');
+		if (window.silhouettes === undefined) {
+			window.silhouettes = {};
 		}
+		$('.tooltip').remove();
+
+		var url = $(this).attr('data-tooltip');
+		var jsonData = "";
+		var data = {
+			silhouette: url,
+		};
+
+		if (window.silhouettes.hasOwnProperty(url)) {
+			setTimeout(function () {
+				$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(window.silhouettes['' + url + ''].title).appendTo('body');
+			}, 300)
+		} else {
+			$.ajax({
+				type: "POST",
+				url: "../data/index.php",
+				data: data
+			}).done(function (result) {
+				jsonData = JSON.parse(result);
+				window.silhouettes[jsonData.id] = jsonData;
+				$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(jsonData.title).appendTo('body');
+			});
+		}
+
+		// var title = $(this).attr('data-tooltip');
+		// $(this).data('tipText', title);
+		// if (title == '') { }
+		// else {
+		// 	$('<p class="tooltip" style="z-index:9000"></p>').fadeIn(200).text(jsonData.title).appendTo('body');
+		// }
 	}, function () {
 		$(this).attr('data-tooltip', $(this).data('tipText'));
 		$('.tooltip').fadeOut(200);
@@ -122,12 +149,35 @@ setTimeout(function () {
 		},
 		"click": function (j, e) {
 			let coords = e.attr('data-coords').split(',') //Find coordinates of area and pass to be cropped
+			let url = e.attr('data-tooltip');
 			let leftCoord = coords[0];
 			let topCoord = coords[1];
-			setTimeout(function () {
-				openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
-				$('#image-info').text(e.attr('data-information'));
-			}, 700)
+			var data = {
+				silhouette: url,
+			};
+
+			if (window.silhouettes.hasOwnProperty(url)) {
+				setTimeout(function () {
+					openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
+					$('#image-info').text(`${window.silhouettes['' + url + ''].content.freetext.name[1].content}`);
+				}, 700)
+			} else {
+				$.ajax({
+					type: "POST",
+					url: "../data/index.php",
+					data: data
+				}).done(function (msg) {
+					var jsonData = JSON.parse(msg);
+					console.log(jsonData);
+
+					setTimeout(function () {
+						openCropCanvasImg(-leftCoord, -topCoord); //Send coordinates of this area to be cropped
+						$('#image-info').text(`${jsonData.content.freetext.name[1].content}`);
+					}, 700)
+				});
+			}
+
+
 		}
 	}
 

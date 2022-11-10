@@ -79,10 +79,10 @@
       $page = 2;
       ?>
 
-				<?php for ($i = 2; $i < 60; $i+=2): ?>
+				<?php for ($i = 2; $i < 76; $i+=2): ?>
 					<?php $next = $page + 1 ?>
           <?php 
-            if($page > 60){
+            if($page > 76){
               break;
             }
           ?>
@@ -366,7 +366,7 @@
   <script src="js/jquery.rwdImageMaps.js"></script>
 	<script src="js/book.js"></script>
 	<script>
-    var numberOfPages = 60;
+    var numberOfPages = 76;
     var pageNumber = 1;
 	
 		var Page = (function () {
